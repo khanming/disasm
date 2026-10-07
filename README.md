@@ -26,7 +26,13 @@ The disadvantages of my `disasm.ASM`:
 
 ![cmd](disasm_cmd.png)
 
-## How this how the program parse PE file
+## Usage
+
+`disasm file.exe > file.txt` 
+
+(To redirect output to text file, either using `>` to create new text file or `>>` to append to existing text file)
+
+## How this program parse PE file
 
 This is the supplementary note for the PE parser (used in `disasm.ASM`), the diagram I drew is ugly.
 
