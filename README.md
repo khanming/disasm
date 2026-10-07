@@ -7,7 +7,7 @@ I moved the uninitialized data declaration the the end of data section, so EXE s
 
 ## Prerequisite
 
-I give up studying decoding of CPU opcode, instead, I rely on Zydis engine (x86 Zydis.dll) to do simple disassembly.
+I gave up studying decoding of CPU opcode, instead, I rely on [Zydis](https://github.com/zyantific/zydis) engine (x86 Zydis.dll) to do simple disassembly.
 
 No code flow analysis, anything in code section will be disassembled regardless of data or code.
 
